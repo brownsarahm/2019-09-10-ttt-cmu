@@ -1,24 +1,21 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-etherpad:             # optional: URL for the workshop Etherpad if there is one
+country: "USA"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+humandate: "September 10-11, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9:00am - 5:00pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2019-09-10      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2019-09-11        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Sarah Brown", "Amy Hodge"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: [""]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: [" openscience@andrew.cmu.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+etherpad:  https://pad.carpentries.org/2019-09-10-ttt-cmu           # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 locations:
-  - venue: "Online"
-    address: "https://carpentries.zoom.us/j/FIXME"
-
-  - venue: "Euphoria University"
-    address: "Room A, 123 Forth Street, Blimingen, Euphoria"
-    latlng: "41.7901128,-87.6007318"
+  - venue: "Carnegie Mellon University"
+    address: "Pittsburgh, PA"
+    latlng: "40.443322, -79.943583"
 
 ---
 
@@ -73,7 +70,7 @@ locations:
 
 <p>
   <a href="{{ site.swc_site }}">Software Carpentry</a>,
-  <a href="{{ site.dc_site }}">Data Carpentry</a>, and 
+  <a href="{{ site.dc_site }}">Data Carpentry</a>, and
   <a href="{{ site.lc_site }}">Library Carpentry</a>'s mission is to
   help scientists, researchers, and librarians get more research done in less time
   and with less pain by teaching them basic lab skills for scientific
@@ -210,7 +207,7 @@ for more information.
   <li><a href="{{ site.dc_site }}/lessons">Data Carpentry Lessons</a></li>
   <li><a href="{{ site.lc_site }}/lessons">Library Carpentry Lessons</a></li>
   </ul>
-  
+
 
 <hr/>
 
@@ -232,13 +229,13 @@ for more information.
       <tr> <td>09:00</td> <td>Welcome </td> </tr>
       <tr> <td>09:15</td> <td>How Learning Works: The Importance of Practice </td> </tr>
       <tr> <td>10:20</td> <td>How Learning Works: Expertise and Instruction </td> </tr>
-      <tr> <td>11:10</td> <td>Morning Coffee </td> </tr>
+      <tr> <td>11:10</td> <td>Morning Break </td> </tr>
       <tr> <td>11:25</td> <td>How Learning Works: Working Memory and Cognitive Load </td> </tr>
       <tr> <td>12:15</td> <td>Building Teaching Skill: Getting Feedback </td> </tr>
       <tr> <td>12:35</td> <td>Lunch </td> </tr>
       <tr> <td>13:35</td> <td>Creating a Positive Learning Environment: Motivation and Demotivation </td> </tr>
       <tr> <td>14:40</td> <td>Creating a Positive Learning Environment: Mindset </td> </tr>
-      <tr> <td>15:20</td> <td>Afternoon Coffee </td> </tr>
+      <tr> <td>15:20</td> <td>Afternoon Break </td> </tr>
       <tr> <td>15:35</td> <td>Building Teaching Skill: The Importance of Practice </td> </tr>
       <tr> <td>16:45</td> <td>Wrap-Up and Homework for Tomorrow </td> </tr>
       <tr> <td>17:05</td> <td>Finish </td> </tr>
@@ -250,12 +247,12 @@ for more information.
       <tr> <td>09:00</td> <td>Welcome Back </td> </tr>
       <tr> <td>09:10</td> <td>Building Teaching Skill: Lesson Study </td> </tr>
       <tr> <td>10:05</td> <td>Building Teaching Skill: Live Coding </td> </tr>
-      <tr> <td>11:05</td> <td>Morning Coffee </td> </tr>
+      <tr> <td>11:05</td> <td>Morning Break </td> </tr>
       <tr> <td>11:20</td> <td>Building Teaching Skill: Performance Revised </td> </tr>
       <tr> <td>12:00</td> <td>Lunch </td> </tr>
       <tr> <td>13:00</td> <td>The Carpentries: Workshop Introductions </td> </tr>
       <tr> <td>14:10</td> <td>The Carpentries: How We Operate </td> </tr>
-      <tr> <td>15:15</td> <td>Afternoon Coffee </td> </tr>
+      <tr> <td>15:15</td> <td>Afternoon Break </td> </tr>
       <tr> <td>15:30</td> <td>The Carpentries: Teaching Practices </td> </tr>
       <tr> <td>16:00</td> <td>Afternoon Wrap-Up </td> </tr>
       <tr> <td>16:45</td> <td>Finish </td> </tr>
