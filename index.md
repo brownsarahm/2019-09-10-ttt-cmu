@@ -13,9 +13,9 @@ contact: [" openscience@andrew.cmu.edu"]    # boxed, comma-separated list of con
 etherpad:  https://pad.carpentries.org/2019-09-10-ttt-cmu           # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 locations:
-  - venue: "Carnegie Mellon University"
+  - venue: "The Den at Sorrells Library, Carnegie Mellon University"
     address: "Pittsburgh, PA"
-    latlng: "40.443322, -79.943583"
+    latlng: "40.442647,-79.9479727"
 
 ---
 
@@ -106,6 +106,7 @@ locations:
 
 <h4>{{ loc.venue }}</h4>
 
+Sorrells Library is on the 4th Floor of Wean Hall. If you enter in the front of Wean Hall, take the elevator down one floor. When you exit the elevator, the library will be on your left. The Den is in the back of the library.
 {% if online == "online" %}
 
 This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event is <{{ loc.address }}>.
